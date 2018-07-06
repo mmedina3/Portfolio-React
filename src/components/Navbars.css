@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.navbar {
+    border: 0 !important;
+    box-shadow: none; 
+
+}
+
+.container-fluid{
+    background-color: white;
+    margin-top: 0px;
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
