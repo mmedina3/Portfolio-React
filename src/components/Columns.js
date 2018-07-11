@@ -16,6 +16,14 @@ class Columns extends React.Component {
               <h3 className="Bold"><b>Where I teach: </b></h3>
               <h4>Women Who Code - Javascript Study Group</h4>
               <br />
+              <h3 className="Bold"><b>Mentor Stats: </b></h3>
+              <h4>3 years in the classroom<br />
+              10 classes<br />
+              210+ students<br />
+        
+              </h4>
+
+
             </Col>
             <Col md={6} mdPull={6}>
               <h1><b>Full-Stack Developer</b></h1>
