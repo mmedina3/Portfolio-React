@@ -25,8 +25,8 @@ class Navbars extends Component {
                         > Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                        <NavItem eventKey={4} href="#contact"
-                        > Contact
+                        <NavItem eventKey={4} href="#connect"
+                        > Connect
                 </NavItem>
                     </Nav>
                     </Navbar.Collapse>
