@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8% 0% 25% 0%;
+    font-family: 'Shadows Into Light', cursive;
+    color: mediumturquoise;
+    /* border-bottom: 1px solid lightgrey; */
+}
+
+#portfolio {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+
+.img-fluid {
+    border-radius: 25px;
+    width: 35vw;
+    height: 85%;
+    margin-bottom: 10%;
+}
+
+.view .mask {
+    border-radius: 25px;
+    width: 35vw !important;
+    height: 86.5% !important;
+    margin-bottom: 10%;
+}
+
+
+
+.white-text {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

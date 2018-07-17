@@ -40,6 +40,11 @@
 }
 
 .Bold{
+  font-family: 'Shadows Into Light', cursive;
   color: mediumturquoise;
-  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.title{
+  font-family: 'Shadows Into Light', cursive;
+  color: mediumturquoise;
 }

@@ -10,35 +10,38 @@ class Columns extends React.Component {
 <div>
         <Grid className="Grid">
           <Row className="show-grid">
-            <Col md={6} mdPush={6}>
-              <h1><b>Mentor</b></h1>
-              <h3>I am an Event Lead for a local weekly JavaScript study group through Women Who Code. </h3>
-              <h3 className="Bold"><b>Where I teach: </b></h3>
-              <h4>Women Who Code - Javascript Study Group</h4>
-              <br />
-              <h3 className="Bold"><b>Mentor Stats: </b></h3>
-              <h4>3 years in the classroom<br />
-              10 classes<br />
-              210+ students<br />
-        
-              </h4>
-
-
-            </Col>
-            <Col md={6} mdPull={6}>
-              <h1><b>Full-Stack Developer</b></h1>
+          <h1 className="title">
+          <br /><br /><br />
+          <b>Full-Stack Developer</b></h1>
               <h3>I enjoy brining ideas to life through software development. </h3>
               <br />
-              <h3 className="Bold"><b>Languages I Speak: </b></h3>
-              <h4>JavaScript, HTML, CSS</h4>
+
+            <Col xs="6" sm="4" >
+              <h2 className="Bold"><b>Frontend: </b></h2>
+              <h3>JavaScript<br />
+              jQuery<br />
+              HTML <br />
+              CSS <br />
+              </h3>
+
+            </Col>
+            <Col xs="6" sm="4">
+              <h2 className="Bold"><b>Backend: </b></h2>
+              <h3>Node <br />
+              Express <br />
+              MySql<br />
+              MongoDB<br /></h3>
               <br />
-              <h3 className="Bold"><b>Dev Tools: </b></h3>
-              <h4>React<br />
+
+            </Col>
+            <Col xs="6" sm="4">
+              <h2 className="Bold"><b>Dev Tools: </b></h2>
+              <h3>React<br />
               Bootstrap<br />
               Git<br />
               GitHub<br />
               Terminal<br />
-              Visual Studio Code</h4>
+              Visual Studio Code</h3>
 
             </Col>
           </Row>

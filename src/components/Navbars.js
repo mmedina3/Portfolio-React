@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // eslint-disable-next-line
 import { Navbar, NavItem, Nav} from 'react-bootstrap';
- import './Navbars.css';
+import './Navbars.css';
 
 class Navbars extends Component {
     //the following code is for Auth0
