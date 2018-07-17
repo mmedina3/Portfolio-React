@@ -23,9 +23,9 @@ class Projects extends React.Component {
             <div class="view overlay">
                 <img src="https://media.giphy.com/media/1dJu0mNMD5ENKzVpnC/giphy.gif" class="img-fluid " alt=" "/>
                     <div class="mask flex-center rgba-cyan-strong">
-                        <p class="white-text">Strong overlay
+                        <p class="white-text">Canvas Art - a space to draw freely with your mouse.
                         <br />  
-                        <Button><a href="https://github.com/mmedina3/Free-Up" target="_blank">Github</a></Button></p>
+                        <Button><a href="https://mmedina3.github.io/Canvas-Art/" target="_blank">Github</a></Button></p>
                     </div>
             </div>
         </div>
