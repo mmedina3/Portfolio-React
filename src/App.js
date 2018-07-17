@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Columns from './components/Columns';
 import Navbars from './components/Navbars';
+import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -28,7 +30,9 @@ class App extends Component {
           <br /><br /><br /><br /><br /><br />
         </div>
         <Columns />
-        <Projects/>
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     );
   }

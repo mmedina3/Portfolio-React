@@ -4,39 +4,12 @@ import { Navbar, NavItem, Nav} from 'react-bootstrap';
 import './Navbars.css';
 
 class Navbars extends Component {
-    //the following code is for Auth0
-
-    goTo(route) {
-        this.props.history.replace(`/${route}`)
-    }
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            collapse: false,
-            isWideEnough: false,
-            dropdownOpen: false
-        };
-        this.onClick = this.onClick.bind(this);
-        this.toggle = this.toggle.bind(this);
-    }
-
-    onClick() {
-        this.setState({
-            collapse: !this.state.collapse,
-        });
-    }
-
-    toggle() {
-        this.setState({
-            dropdownOpen: !this.state.dropdownOpen
-        });
-    }
 
     render() {
         return (
             <div>
                 <Navbar fluid>
+                <Navbar.Collapse>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <a href="/">M²</a>
@@ -44,22 +17,21 @@ class Navbars extends Component {
                     </Navbar.Header>
                     <Nav pullRight>
 
-                        <NavItem eventKey={2} href="Projects"
-                            onClick={this.goTo.bind(this, 'Projects')}
-                        > Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        <NavItem eventKey={2} href="#projects"
+                        > Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                        <NavItem eventKey={3} href="Resume"
-                            onClick={this.goTo.bind(this, 'Resume')}
+                        <NavItem eventKey={3} href="https://drive.google.com/file/d/1w6jysUUqZG6UNF_8JwSZNvL1IN8TuR2M/view" target="_blank"   
                         > Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                        <NavItem eventKey={4} href="Contact"
-                            onClick={this.goTo.bind(this, 'Contact')}
+                        <NavItem eventKey={4} href="#contact"
                         > Contact
                 </NavItem>
                     </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
+
             </div>
         );
     }
