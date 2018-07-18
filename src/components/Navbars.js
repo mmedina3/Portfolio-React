@@ -29,7 +29,7 @@ class Navbars extends Component {
                 </NavItem>
 
                         <NavItem eventKey={5} href="#connect"
-                        > Connect
+                        > Connect&nbsp;&nbsp;&nbsp;&nbsp;
                 </NavItem>
                     </Nav>
                     </Navbar.Collapse>

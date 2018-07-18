@@ -62,8 +62,20 @@
   
 }
 
+.link2 a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white !important;
+  
+}
+
 .title2 a:hover{
   font-family: 'Shadows Into Light', cursive;
+  color: #708090 !important;
+  
+}
+
+.link2 a:hover{
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #708090 !important;
   
 }
