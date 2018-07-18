@@ -13,7 +13,7 @@ class Projects extends React.Component {
                     <div className="view overlay">
                         <img src="https://media.giphy.com/media/1ioiTNxtsHGwXBs8cq/giphy.gif" className="img-fluid " alt="demo" />
                         <div className="mask flex-center rgba-cyan-strong">
-                            <p className="white-text">Free Up - A platform for Educators, Social Workers and families in need to find free items for their kids. Built with MySql, Express, Node.js, React.
+                            <p className="white-text">Free Up - A platform for Educators, Social Workers and families in need to find free items for their kids. Built with MySql, Express, Node.js, React, Auth0 API, Google Places API.
                         <br />  <br />
                                 <button bssize="large"><a href="https://github.com/mmedina3/Free-Up" target="_blank" rel="noopener noreferrer" >GitHub</a></button></p>
                         </div>

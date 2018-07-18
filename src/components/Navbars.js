@@ -24,7 +24,7 @@ class Navbars extends Component {
                             > Projects &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                            <NavItem eventKey={4} href="https://drive.google.com/file/d/1w6jysUUqZG6UNF_8JwSZNvL1IN8TuR2M/view" target="_blank"
+                            <NavItem eventKey={4} href="https://drive.google.com/file/d/1kaqLZUinCB2nunpGNKG1qYYol8NPFdTV/view?ths=true" target="_blank"
                             > Resume&nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
