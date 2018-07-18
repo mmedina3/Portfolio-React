@@ -4,12 +4,15 @@
 .navbar {
     border: 0 !important;
     box-shadow: none !important; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
 
 }
 
 .container-fluid{
     background-color: white;
     margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 

@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8% 0% 25% 0%;
+    padding: 6% 0% 0% 0%;
     font-family: 'Shadows Into Light', cursive;
     color: mediumturquoise;
     /* border-bottom: 1px solid lightgrey; */
@@ -39,15 +39,25 @@
 .white-text {
     color: white;
     font-size: 2vw;
-    font-weight: bold;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
-button{
+button {
     border-radius: 25px;
     font-size: 2vw;
-    color: mediumturquoise;
     background-color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive !important;
 
+}
+
+
+button > a {
+    color: mediumturquoise;
+}
+
+button > a:hover {
+    color:#708090;
 }

@@ -26,3 +26,11 @@
     border-radius: 50%;
 }
 
+#connect > h1 > a:link {
+    color: mediumturquoise;
+}
+
+#connect > h1 > a:hover {
+    color:#708090;
+}
+

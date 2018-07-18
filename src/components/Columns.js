@@ -16,7 +16,7 @@ class Columns extends React.Component {
               <h3>I enjoy brining ideas to life through software development. </h3>
               <br />
 
-            <Col xs="6" sm="4" >
+            <Col xs={6} sm={4} >
               <h2 className="Bold"><b>Frontend: </b></h2>
               <h3>JavaScript<br />
               jQuery<br />
@@ -25,7 +25,7 @@ class Columns extends React.Component {
               </h3>
 
             </Col>
-            <Col xs="6" sm="4">
+            <Col xs={6} sm={4} >
               <h2 className="Bold"><b>Backend: </b></h2>
               <h3>Node <br />
               Express <br />
@@ -34,7 +34,7 @@ class Columns extends React.Component {
               <br />
 
             </Col>
-            <Col xs="6" sm="4">
+            <Col xs={6} sm={4} >
               <h2 className="Bold"><b>Dev Tools: </b></h2>
               <h3>React<br />
               Bootstrap<br />

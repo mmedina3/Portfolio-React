@@ -7,25 +7,28 @@ class Navbars extends Component {
 
     render() {
         return (
-            <div>
-                <Navbar fluid>
-                <Navbar.Collapse>
+            <div className="navbars">
+                <Navbar fluid fixedTop collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="/">M²</a>
+                            <a className="navbars" href="/">M²</a>
                         </Navbar.Brand>
-                    </Navbar.Header>
-                    <Nav pullRight>
-
-                        <NavItem eventKey={2} href="#projects"
-                        > Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        <Navbar.Toggle />
+                        </Navbar.Header>
+                        <Navbar.Collapse>
+                    <Nav pullRight className="navbars">
+                    <NavItem eventKey={2} href="#about"
+                        > About&nbsp;&nbsp;&nbsp;&nbsp;|
+                </NavItem>
+                        <NavItem eventKey={3} href="#projects"
+                        > Projects &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                        <NavItem eventKey={3} href="https://drive.google.com/file/d/1w6jysUUqZG6UNF_8JwSZNvL1IN8TuR2M/view" target="_blank"   
-                        > Resume&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        <NavItem eventKey={4} href="https://drive.google.com/file/d/1w6jysUUqZG6UNF_8JwSZNvL1IN8TuR2M/view" target="_blank"   
+                        > Resume&nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                        <NavItem eventKey={4} href="#connect"
+                        <NavItem eventKey={5} href="#connect"
                         > Connect
                 </NavItem>
                     </Nav>
