@@ -7,7 +7,7 @@ class Projects extends React.Component {
         return (
             <div id="projects">
                 <div className='header'>
-                <h1><b>My Recent Work</b></h1><br /><br />
+                    <h1><b>My Recent Work</b></h1><br /><br />
                 </div>
                 <div id="portfolio">
                     <div className="view overlay">
@@ -24,25 +24,25 @@ class Projects extends React.Component {
                         <img src="https://media.giphy.com/media/65To8Pi2sWmVvjWXpy/giphy.gif" className="img-fluid " alt=" " />
                         <div className="mask flex-center rgba-cyan-strong">
                             <p className="white-text">Event Page- Eventful API used to find and save local events in San Francisco to the database using the command line interface. <br />Built with CLI, JavaScript, MySql, Eventful API.
-                        <br />  <br />  
+                        <br />  <br />
                                 <button><a href="https://github.com/mmedina3/Eventful-API-test-page" target="_blank" rel="noopener noreferrer" >GitHub</a></button></p>
                         </div>
                     </div>
-                    
+
                     <div className="view overlay">
                         <img src="https://media.giphy.com/media/6b9GNhqtE58XXl2Gfq/giphy.gif" className="img-fluid " alt=" " />
                         <div className="mask flex-center rgba-cyan-strong">
                             <p className="white-text">Weather Finder- App built to check the weather around the globe.<br />Built with React, JavaScript, HTML/CSS, Weather API.
-                        <br />  <br />  
+                        <br />  <br />
                                 <button><a href="https://github.com/mmedina3/WeatherFinder" target="_blank" rel="noopener noreferrer" >GitHub</a></button></p>
                         </div>
                     </div>
 
-                        <div className="view overlay">
-                        <img src="https://media.giphy.com/media/B2U75hN4XC7syawJES/giphy.gif" className="img-fluid " alt=" "/>
+                    <div className="view overlay">
+                        <img src="https://media.giphy.com/media/B2U75hN4XC7syawJES/giphy.gif" className="img-fluid " alt=" " />
                         <div className="mask flex-center rgba-cyan-strong">
-                            <p className="white-text">Group Git Project- A tutorial built to teach newbies how to use Git. <br /> Built with MongoDB, Express, Node.js, HTML/CSS, NodeMailer. 
-                        <br />  <br />  
+                            <p className="white-text">Group Git Project- A tutorial built to teach newbies how to use Git. <br /> Built with MongoDB, Express, Node.js, HTML/CSS, NodeMailer.
+                        <br />  <br />
                                 <button><a href="https://github.com/mmedina3/group-git-project-final" target="_blank" rel="noopener noreferrer" >GitHub</a></button></p>
                         </div>
                     </div>
